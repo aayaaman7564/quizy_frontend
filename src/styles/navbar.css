@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(9, 243, 134);
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.right{
+    order: 1;
+}
+.b{
+    text-decoration: none;
+    
+}
+.a{
+    text-decoration: none;
+}
+.c{
+    background-color: rgb(243, 9, 9);
+    border: 1px solid rgb(9, 243, 134);
+}
+.c.checked{
+    background-color: aliceblue;
+}
+.c:hover {
+    background-color: #45a049;
+  }
